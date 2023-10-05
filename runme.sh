@@ -1,7 +1,7 @@
 #!/bin/zsh
 
 VERSION=0.0.1-SNAPSHOT
-JAR_PATH=./build/libs/sudoku-${VERSION}.jar
+JAR_PATH=./build/libs/sudoku-exercise-${VERSION}.jar
 
 if [ ! -f $JAR_PATH ]
 then
