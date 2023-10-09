@@ -66,7 +66,6 @@ data class SudokuGrid constructor(private val rows: List<List<Int>>) {
         /*
         These numbers are a bit magical...
         There are many variations of Sudoku Puzzles, so there's an opportunity to abstract this.
-        Given the way the code is written, I'm not sure a variable name would lend much clarity.
          */
         return listOf(
             buildSubRowFromIndexRange(0, 2),
